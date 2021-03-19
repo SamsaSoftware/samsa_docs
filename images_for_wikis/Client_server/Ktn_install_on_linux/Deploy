@@ -1,0 +1,21 @@
+Step1:
+  Indentify server and hostname:
+    -linux/windows
+    -client branch (each server of the customer have his own branch)
+    -get proper hostname
+Step2:
+  Identify the branch from frontend to backend 
+Step3:
+  Change the file .env.development with the host name that you identify before
+Step4:
+  On samsa-stack select branch
+   -validate the workflow file on Actions to used the proper  frontend and backend branchs
+Step5:
+  open a version file in samsa-stack and change versiontipe
+Step6:
+  commit the changes and wait (around 8 min)
+Step7:
+  on computer login to host
+Step8:
+  make a clean build
+ 
